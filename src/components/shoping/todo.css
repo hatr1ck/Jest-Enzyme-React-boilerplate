@@ -1,0 +1,44 @@
+.Ap{
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 1%;
+}
+.li{
+    animation: frames 1s forwards ease-in-out;
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+    display: block;
+    z-index: 10;
+}
+.input{
+    width: 100%;
+    font-size: 20px;
+}
+.ul{
+    list-style: decimal;
+}
+.btn{
+    float: right;
+    display: block;
+}
+@keyframes frames {
+    0%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+  
+  @media screen and (max-width: 500px){
+    .Ap{
+        width: 320px;
+        height: 600px;
+    }
+  }
